@@ -1,0 +1,69 @@
+.latest-posts a {
+    display: block;
+}
+.latest-posts h2 {
+    line-height: 1em !important;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+.latest-posts .post img {
+    border-radius: 10px 10px 10px 10px;
+}
+.latest-posts h2 a {
+    color: #000000;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.2em !important;
+}
+.latest-posts .date-meta {
+    color: #000000;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.right-posts-widget .post {
+    display: flex;
+    column-gap: 10px;
+}
+.latest-posts .right-posts-widget {
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 431px) and (max-width: 993px) {
+.first-post .feature-image img {
+    height: 350px;
+    object-fit: cover;
+    object-position: center center;
+}
+}
+    
+@media (min-width: 431px) {
+.latest-posts {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.latest-posts .first-post,
+.latest-posts .right-posts-widget {
+    width: 50%;
+}
+.right-posts-widget .feature-image {
+    width: 20%
+}
+.right-posts-widget .meta-wrapper {
+    width: 80%;
+}
+}
+
+@media (max-width: 430px) {
+.right-posts-widget .post {
+    flex-direction: column;
+}
+.right-posts-widget .post {
+    flex-direction: column;
+}  
+}
